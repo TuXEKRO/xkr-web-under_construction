@@ -1,0 +1,127 @@
+/**
+* Template Name: Construction template 1.0.0
+* Template URL: https://github.com/TuXEKRO
+* Author: TuXEKRO
+* License: 
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: calc(1rem + 1.5vh);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    position: relative;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background: url("../img/bg.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+}
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: min(5%, 4vh);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: Clamp(15%, 30% ,70vh);
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: min(8%, 4vh);
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.header__logo {
+    height: 7vh;
+    width: auto;
+}
+
+/*--------------------------------------------------------------
+# Main Content
+--------------------------------------------------------------*/
+
+.main__title {
+    font-size: clamp(5rem, calc(4rem + 6vw), 15rem);
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0;
+    padding: 1rem;
+}
+
+.main__description {
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.main__discord-btn {
+    background-color: black;
+    color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.main__discord-btn:hover {
+    transform: scale(1.1);
+}
+
+.main__discord-icon {
+    vertical-align: middle;
+    width: 4vh;
+    height: auto;
+    margin-right: 0.5rem;
+    filter: invert(100%);
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer__social-icons {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
+
+.footer__social-icon {
+    width: 3.5vh;
+    height: auto;
+    margin: 0.5rem;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.footer__social-icon:hover {
+    filter: grayscale(0%);
+}
