@@ -33,7 +33,7 @@
 * [Licencia](#licencia)
 * [Autores](#autores)
 
-## Sobre el Proyecto
+## ⭐ Sobre el Proyecto
 
 ![preview](https://github.com/TuXEKRO/xkr-web-under_construction/assets/25120872/72e4f521-708e-499a-93a4-8f5b4b96c70f)
 
@@ -48,7 +48,7 @@ Este proyecto sirve como una landing page temporal para XEKRO Servers mientras r
 * Optimización para SEO con meta tags y atributos ``alt`` en las imágenes.
 * Fácil de mantener y escalar.
 
-## Tecnologías Utilizadas
+## 🧰 Tecnologías Utilizadas
 
 A continuación se lista las tecnologías utilizadas en este proyecto:
 
@@ -64,7 +64,7 @@ A continuación se lista las tecnologías utilizadas en este proyecto:
 
 ______
 
-## Comenzar
+## ⚙️ Comenzar
 
 Ejemplo de cómo puede usar este proyecto en su hosting web (Apache y Nginx) en Linux (Debian).
 
@@ -96,7 +96,7 @@ sudo mv xkr-web-under_construction /usr/share/nginx/html/
 Redirect 301 /index.html /under_construction/index.html
 ```
 
-## Uso
+## 🚩 Uso
 
 #### Rendimiento web "perfecto":
 
@@ -116,7 +116,7 @@ Redirect 301 /index.html /under_construction/index.html
 
 
 
-## Contribuir
+## ❔ Contribuir
 
 1. Haz un Fork del proyecto.
 2. Cree su propia rama (`git checkout -b feature/AmazingFeature`).
@@ -124,10 +124,10 @@ Redirect 301 /index.html /under_construction/index.html
 4. Suba los cambios a la rama (`git push origin feature/AmazingFeature`).
 5. Abra una solicitud Pull Request.
 
-## Licencia
+## ⚠️ Licencia
 
-Distribuido bajo la licencia MIT. Consulta el archivo [LICENCIA](https://github.com/XEKRO/xekro-servers-under_construction/blob/main/LICENSE.md) para más información.
+Distribuido bajo la licencia MIT. Consulta el archivo [LICENSE](https://github.com/TuXEKRO/xkr-web-under_construction/blob/main/LICENSE) para más información.
 
-## Autores
+## 🤝 Autores
 
 * **TuXEKRO** - *Desarrollador Full-stack developer* - [TuXEKRO](https://github.com/TuXEKRO)
