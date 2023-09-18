@@ -96,7 +96,7 @@ sudo mv xkr-web-under_construction /usr/share/nginx/html/
 Redirect 301 /index.html /under_construction/index.html
 ```
 
-## 🚩 Uso
+## 🚩 Características
 
 #### Rendimiento web "perfecto":
 
