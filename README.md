@@ -43,6 +43,7 @@ Este proyecto sirve como una landing page temporal para XEKRO Servers mientras r
 
 ¿Por qué utilizar este proyecto?:
 
+* Rendimiento web "perfecto" 100/100.
 * Uso de metodologías y arquitecturas modernas como BEM y Mobile First.
 * Arquitectura MVC para organizar el código JavaScript.
 * Optimización para SEO con meta tags y atributos ``alt`` en las imágenes.
